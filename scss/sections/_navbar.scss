@@ -1,0 +1,17 @@
+.navbar {
+    // min-height: 5rem;
+}
+
+.navbar__btn {
+    background-color: transparent;
+    border-radius: 0.625rem;
+    width: 6.3125rem;
+    height: 2.5625rem;
+    padding: 4px;
+}
+
+.navbar-toggler-icon {
+    height: 2rem;
+    width: 2rem;
+    background-image: url("../assets/svg/burger.svg");
+}

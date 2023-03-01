@@ -1,0 +1,8 @@
+//Vars & Resets 
+@import 'globals'; //->siempre van primero para que se apliquen sus estilos al Framework
+
+//Frameworks
+@import 'config';
+
+//Sections
+@import 'sections/navbar';
