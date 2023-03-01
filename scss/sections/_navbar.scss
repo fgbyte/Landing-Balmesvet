@@ -1,16 +1,11 @@
 .navbar {
-
     &__logo {
-        width: 75%;
-
-        @include media-breakpoint-down(md) {
-            width: 65%;
-        }
+        width: 50%;
     }
 }
 
 .navbar__btn {
-    // border: 2rem;
+    // width: 50%;
 }
 
 .navbar-toggler-icon {
