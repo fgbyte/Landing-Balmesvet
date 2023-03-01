@@ -1,13 +1,16 @@
 .navbar {
-    // min-height: 5rem;
+
+    &__logo {
+        width: 75%;
+
+        @include media-breakpoint-down(md) {
+            width: 65%;
+        }
+    }
 }
 
 .navbar__btn {
-    background-color: transparent;
-    border-radius: 0.625rem;
-    width: 6.3125rem;
-    height: 2.5625rem;
-    padding: 4px;
+    // border: 2rem;
 }
 
 .navbar-toggler-icon {

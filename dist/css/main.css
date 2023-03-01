@@ -11788,12 +11788,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar__btn {
-  background-color: transparent;
-  border-radius: 0.625rem;
-  width: 6.3125rem;
-  height: 2.5625rem;
-  padding: 4px;
+.navbar__logo {
+  width: 75%;
+}
+@media (max-width: 767.98px) {
+  .navbar__logo {
+    width: 65%;
+  }
 }
 
 .navbar-toggler-icon {

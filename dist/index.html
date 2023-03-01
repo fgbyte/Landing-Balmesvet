@@ -13,15 +13,14 @@
     <header>
         <!-- NAVBAR SECTION-1 -->
   <nav class="navbar bg-success navbar-expand-lg menu shadow fixed-top">
-    <div class="container p-3">
+    <div class="container p-2">
       <a class="navbar-brand" href="#">
-        <img src="assets\svg\logo-white.svg" alt="logo image" style="width: 80%;">
+        <img class="navbar__logo" src="assets\svg\logo-white.svg" alt="logo image">
       </a>
-      <button type="button" class="d-lg-none navbar__btn">931 173 173
-        <span>
-          <i class="fas fa-phone"></i>
-        </span>
+      <!-- botón teléfono sm-->
+      <button type="button" class="btn btn-outline-light d-lg-none navbar__btn navbar__btn--md">931 173 173
       </button>
+      <!-- botón burger -->
       <button class="navbar__burguer--button bg-transparent d-lg-none border-0" type="button" 
       data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" 
@@ -42,7 +41,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
-          <button type="button" class="navbar__btn--md d-none d-lg-block ">931 173 173
+      <!-- botón teléfono lg-->
+
+          <button type="button" class="btn btn-outline-light d-none d-lg-block navbar__btn navbar__btn--md">931 173 173
             <span>
               <i class="fas fa-phone"></i>
             </span>
