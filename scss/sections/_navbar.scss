@@ -1,15 +1,24 @@
 .navbar {
-    &__logo {
-        width: 50%;
+  @include media-breakpoint-down(md) {
+    padding: 1rem 0 1rem 0;
+  }
+  &__brand {
+    width: 21.875rem;
+    @include media-breakpoint-down(md) {
+      min-width: 9rem;
+      max-width: 11rem;
     }
-}
-
-.navbar__btn {
-    // width: 50%;
+  }
+  &__logo {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+      width: 21.875rem;
+    }
+  }
 }
 
 .navbar-toggler-icon {
-    height: 2rem;
-    width: 2rem;
-    background-image: url("../assets/svg/burger.svg");
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url("../assets/svg/burger.svg");
 }
