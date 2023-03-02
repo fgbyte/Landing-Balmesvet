@@ -22135,4 +22135,13 @@ readers do not read off random characters that represent icons */
   background-repeat: no-repeat;
 }
 
+.main__special-bg {
+  background-image: url("../assets/svg/special-bg.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+.main__photo {
+  filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.1));
+}
+
 /*# sourceMappingURL=main.css.map */

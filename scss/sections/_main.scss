@@ -1,0 +1,12 @@
+.main {
+    &__special-bg {
+        // padding: 20rem 0;
+        background-image: url("../assets/svg/special-bg.svg");
+        background-size: 60%;
+        background-repeat: no-repeat;
+    }
+
+    &__photo {
+        filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.1));
+    }
+}
