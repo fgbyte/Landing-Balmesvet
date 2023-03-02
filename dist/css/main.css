@@ -22116,4 +22116,14 @@ readers do not read off random characters that represent icons */
   background-image: url("../assets/svg/burger.svg");
 }
 
+.hero {
+  color: #FDFDFD;
+  padding: 5rem 0;
+  background-image: url("../assets/img/hero-sm.jpg"), linear-gradient(360deg, rgba(36, 76, 90, 0.8) 41.3%, #46C1BD 82.6%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=main.css.map */
