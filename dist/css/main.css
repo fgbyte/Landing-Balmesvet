@@ -22238,4 +22238,15 @@ h3, .h3 {
   }
 }
 
+.cta {
+  background-image: url("../assets/img/hero.jpg"), linear-gradient(360deg, rgba(17, 51, 63, 0.8) 41.3%, #153b47 82.6%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cta__content {
+  padding: 5rem 0;
+}
+
 /*# sourceMappingURL=main.css.map */
