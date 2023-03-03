@@ -4,9 +4,21 @@
         background-image: url("../assets/svg/special-bg.svg");
         background-size: 60%;
         background-repeat: no-repeat;
+
+        &--2 {
+            background-position-x: right;
+        }
+    }
+
+    &__card {
+        @include media-breakpoint-up(md){
+            padding: 0 3rem;
+        }
     }
 
     &__photo {
         filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.1));
+        box-shadow: 25px;
+        // padding-right: 3rem;
     }
 }

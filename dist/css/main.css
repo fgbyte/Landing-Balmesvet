@@ -22140,8 +22140,17 @@ readers do not read off random characters that represent icons */
   background-size: 60%;
   background-repeat: no-repeat;
 }
+.main__special-bg--2 {
+  background-position-x: right;
+}
+@media (min-width: 768px) {
+  .main__card {
+    padding: 0 3rem;
+  }
+}
 .main__photo {
   filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.1));
+  box-shadow: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
