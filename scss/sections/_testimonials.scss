@@ -1,0 +1,11 @@
+.carousel_photo {
+    width: 5rem;
+}
+
+.carousel__card {
+    width: 90%;
+
+    @include media-breakpoint-up(lg) {
+        width: 28.125rem;
+    }
+}
