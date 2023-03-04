@@ -21,6 +21,11 @@
     }
 
     &__bottom {
-        
+        font-size: 0.875rem;
+    }
+
+    .bottom__links {
+        width: fix-content;
+        // background-color: red;
     }
 }

@@ -10,7 +10,7 @@ function initMap() {
 
     //map printed on the page
     const map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 4,
+        zoom: 15,
         center: position
     })
 

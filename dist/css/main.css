@@ -12001,6 +12001,13 @@ h3, .h3 {
     margin-left: 4rem;
   }
 }
+.footer__bottom {
+  font-size: 0.875rem;
+}
+.footer .bottom__links {
+  width: fix-content;
+}
+
 .feature {
   padding: 5rem 0;
 }
