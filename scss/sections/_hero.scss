@@ -21,4 +21,12 @@
       gap: 3rem;
     }
   }
+
+  &--middle {
+    @include media-breakpoint-up(md) {
+      padding: 5rem 0;
+      background-image: url("../assets/img/hero.jpg"),
+        linear-gradient(360deg, rgba(36, 76, 90, 0.8) 41.3%, #46c1bd 82.6%);
+    }
+  }
 }

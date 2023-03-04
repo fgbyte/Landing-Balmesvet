@@ -18,5 +18,9 @@
 
     &__photo {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+        &--2 {
+            margin-left: 4rem;
+        }
     }
 }

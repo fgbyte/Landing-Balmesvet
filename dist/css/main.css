@@ -22211,6 +22211,12 @@ h3, .h3 {
     gap: 3rem;
   }
 }
+@media (min-width: 768px) {
+  .hero--middle {
+    padding: 5rem 0;
+    background-image: url("../assets/img/hero.jpg"), linear-gradient(360deg, rgba(36, 76, 90, 0.8) 41.3%, #46c1bd 82.6%);
+  }
+}
 
 .main__special-bg {
   background-image: url("../assets/svg/special-bg.svg");
@@ -22227,6 +22233,9 @@ h3, .h3 {
 }
 .main__photo {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main__photo--2 {
+  margin-left: 4rem;
 }
 
 .carousel_photo {
