@@ -76,22 +76,29 @@
                             <label class="form-label" for="name">Nombre
                                 <span class="text-secondary"><b>*</b></span>
                             </label>
-                            <input class="form-control mb-3" type="text" id="name" placeholder="">
+                            <input class="form-control mb-3 form__input" type="text" id="name" placeholder="">
 
                             <div class="email-phone d-flex gap-3">
                                 <div class="w-100">
                                     <label class="form-label" for="email">Email <span
                                             class="text-secondary"><b>*</b></span></label>
-                                    <input class="form-control mb-3" type="email" id="email" placeholder="">
+                                    <input class="form-control mb-3 form__input" type="email" id="email" placeholder="">
                                 </div>
                                 <div class="w-100">
                                     <label class="form-label" for="phone">Teléfono <span
                                             class="text-secondary"><b>*</b></span></label>
-                                    <input class="form-control mb-3" type="phone" id="phone" placeholder="">
+                                    <input class="form-control mb-3 form__input" type="phone" id="phone" placeholder="">
                                 </div>
                             </div>
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label">¿En qué te podemos ayudar?</label>
+                            <textarea class="form-control form__input mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="form-check">
+                                <input class="form-check-input mb-3 form__input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label text-secondary" for="defaultCheck1">
+                                    Acepto la Política de Privacidad
+                                </label>
+                              </div>
+                              <a class="btn btn-primary px-3 py-2 tk-bree text-secondary mt-4 form__button" href="#" role="button">Enviar</a>
                     </div>
                     </form>
                 </div>

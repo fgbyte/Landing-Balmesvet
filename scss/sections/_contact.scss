@@ -23,3 +23,15 @@
         margin-top: 3rem;
     }
 }
+
+.form__input {
+    border: solid 0.125rem $warning;
+    border-radius: 0;
+    background-color: $white;
+}
+
+.form__button {
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+}

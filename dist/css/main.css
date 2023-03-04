@@ -12026,4 +12026,16 @@ h3, .h3 {
   }
 }
 
+.form__input {
+  border: solid 0.125rem #46C1BD;
+  border-radius: 0;
+  background-color: #FDFDFD;
+}
+
+@media (max-width: 767.98px) {
+  .form__button {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
