@@ -11905,7 +11905,7 @@ h3, .h3 {
 }
 @media (min-width: 992px) {
   .hero {
-    padding: 12rem 0;
+    padding: 10rem 0;
     background-image: url("../assets/img/hero.jpg"), linear-gradient(360deg, rgba(36, 76, 90, 0.8) 41.3%, #46c1bd 82.6%);
   }
 }
