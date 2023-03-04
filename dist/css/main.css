@@ -22296,5 +22296,11 @@ h3, .h3 {
     margin-left: 4rem;
   }
 }
+.feature {
+  padding: 5rem 0;
+}
+.feature__img {
+  width: 4.6875rem;
+}
 
 /*# sourceMappingURL=main.css.map */
