@@ -1,0 +1,24 @@
+.contact__form {
+    @include media-breakpoint-up(md) {
+        width: 95%;
+    }
+}
+
+// .form__input {
+//     border: solid 2px $warning;
+//     // padding: 0 0.75rem;
+//     // margin: 0 0.75rem;
+//     height: 2.625rem;
+//     width: 100%;
+// }
+
+.email-phone {
+    @include media-breakpoint-down(md) {
+        flex-wrap: wrap;
+
+    }
+
+    &__input {
+        width: 100%;
+    }
+}

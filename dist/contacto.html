@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Landing Balmesvet</title>
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR SECTION -->
+        <nav class="navbar bg-success navbar-expand-lg menu shadow fixed-top">
+            <div class="container justify-content-space-bettwen">
+                <a href="#" class="navbar__brand">
+                    <img class="navbar__logo" src="assets\svg\logo-white.svg" alt="logo image">
+                </a>
+                <button type="button" class="btn btn-outline-light d-lg-none navbar__btn navbar__btn--md"><b>931 173
+                        173</b>
+                </button>
+                <button class="navbar__burguer--button bg-transparent d-lg-none border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar__burger"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-lg-4 tk-bree">
+                        <!-- cuando este active q sea underline -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Hospital24</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                        <button type="button"
+                            class="btn btn-outline-light d-none d-lg-block navbar__btn px-lg-3 navbar__btn--md"><span>
+                                <i class="fas fa-phone"></i>
+                            </span><b>931 173 173</b>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section  -->
+    <section id="hero" class="hero hero--middle">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            Ponte en contacto
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-sm-12 col-lg-6">
+                    <div class="contact__form">
+                        <h2 class="form__title">Déjanos tus comentarios y te contestaremos en breve</h2>
+                        <form action="" class="contact__form">
+                            <label class="form-label" for="name">Nombre
+                                <span class="text-secondary"><b>*</b></span>
+                            </label>
+                            <input class="form-control mb-3" type="text" id="name" placeholder="">
+
+                            <div class="email-phone d-flex gap-3">
+                                <div class="email-phone__input">
+                                    <label class="form-label" for="email">Email <span
+                                            class="text-secondary"><b>*</b></span></label>
+                                    <input class="form-control mb-3" type="email" id="email" placeholder="">
+                                </div>
+                                <div class="email-phone__input">
+                                    <label class="form-label" for="phone">Teléfono <span
+                                            class="text-secondary"><b>*</b></span></label>
+                                    <input class="form-control mb-3" type="phone" id="phone" placeholder="">
+                                </div>
+                            </div>
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <!-- datos de contacto -->
+            <div class="col-sm-12 col-lg-6">
+                <div class="contact__data">
+                    <h2 class="data__title">Datos de contacto</h2>
+                    <div class="data__card d-flex gap-2">
+                        <span class="p-2">
+                            <i class="fa fa-map-marker-alt text-warning"></i>
+                        </span>
+                        <p class="mt-2">C/ Balmes 205, Local 1. 08006 Barcelona</p>
+                    </div>
+                    <div class="data__card d-flex gap-2">
+                        <span class="p-2">
+                            <i class="fa fa-phone text-warning"></i>
+                        </span>
+                        <p class="mt-2">Tel. 931 173 173 | Urgencias 24h 931 173 173</p>
+                    </div>
+                    <div class="data__card d-flex gap-2">
+                        <span class="p-2">
+                            <i class="fa fa-envelope text-warning"></i>
+                        </span>
+                        <p class="mt-2">info@balmesvet.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="mt-5 bg-white">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h2 class="mt-5 d-md-none">Estamos en Calle<br>
+                    Balmes 205 -<br>
+                    Barcelona</h2>
+                <h2 class="mt-5 d-none d-md-block">Estamos en Calle Balmes 205 - Barcelona</h2>
+                <div id="map" class=" map map__content"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="brands">
+        <div class="container">
+            <div class="row">
+                <div class="brands__content gap-4">
+                    <div class="brand"><img src="./assets/img/brands/kitdigital-logos 1.png" alt=""></div>
+                    <div class="brand"><img src="./assets/img/brands/kitdigital-logos 2.png" alt=""></div>
+                    <div class="brand"><img src="./assets/img/brands/kitdigital-logos 3.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row border-bottom">
+                <div class="footer__content text-center">
+                    <div class="col col-lg-4 footer__logo">
+                        <img src="./assets/svg/logo-blue.svg" alt="">
+                    </div>
+                    <div class="col col-lg-4 accordion-collapse mt-4">
+                        <ul class="d-flex tk-bree justify-content-center gap-5 list-inline">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Hospital24</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-4 footer__socials mb-5 mt-4 mt-lg-5 d-flex gap-3 justify-content-center">
+                        <a href="">
+                            <img src="./assets/svg/socials/Linkedin.svg" alt="" class="footer__socials-item">
+                        </a>
+                        <a href="">
+                            <img src="./assets/svg/socials/instagram-icon.svg" alt="" class="footer__socials-item">
+                        </a>
+                        <a href="">
+                            <img src="./assets/svg/socials/Youtube.svg" alt="" class="footer__socials-item">
+                        </a>
+                        <a href="">
+                            <img src="./assets/svg/socials/Facebook.svg" alt="" class="footer__socials-item">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer__bottom p-4 text-center">
+            <ul class="row d-flex op-s justify-content-center gap-2 gap-md-0 text-info">
+                <div class="col-sm-12 col-md-3">
+                    <a class="nav-link" href="#">Política de Cookies</a>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <a class="nav-link" href="#">Aviso Legal</a>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <a class="nav-link" href="#">Política de Privacidad</a>
+                </div>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9ba9cde0eb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
