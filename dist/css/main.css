@@ -12023,4 +12023,10 @@ h3, .h3 {
   width: 100%;
 }
 
+@media (max-width: 991.98px) {
+  .contact__data {
+    margin-top: 3rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

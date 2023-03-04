@@ -22,3 +22,9 @@
         width: 100%;
     }
 }
+
+.contact__data {
+    @include media-breakpoint-down(lg) {
+        margin-top: 3rem;
+    }
+}
