@@ -1,0 +1,26 @@
+.footer {
+    background-color: $white;
+
+    &__content {
+        @include media-breakpoint-up(lg) {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__logo img {
+        @include media-breakpoint-down(1200px) {
+            width: 60%;
+        }
+    }
+
+    &__links {
+        @include media-breakpoint-up(lg) {
+            margin-left: 4rem;
+        }
+    }
+
+    &__bottom {
+        
+    }
+}
