@@ -15,11 +15,6 @@
 .email-phone {
     @include media-breakpoint-down(md) {
         flex-wrap: wrap;
-
-    }
-
-    &__input {
-        width: 100%;
     }
 }
 
