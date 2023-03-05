@@ -4,13 +4,13 @@ function initMap() {
 
     //define position
     const position = {
-        lat: 39.4697500,
-        lng: -0.3773900
+        lat: 41.39791869289706,
+        lng: 2.1512747415398557
     }
 
     //map printed on the page
     const map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
+        zoom: 17,
         center: position
     })
 
