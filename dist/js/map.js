@@ -4,8 +4,8 @@ function initMap() {
 
     //define position
     const position = {
-        lat: 41.39791869289706,
-        lng: 2.1512747415398557
+        lat: 41.39776426693422,
+        lng: 2.1512210825562903
     }
 
     //map printed on the page
